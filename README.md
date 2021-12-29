@@ -1,5 +1,22 @@
 # GhPortfolio
 
+A portfolio application for our GitHub profile. 
+
+
+![](src/assets/Screenshot.png)
+
+
+It interacts with the GitHub API in a new Angular application using Bootstrap CSS and Bootstrap Icons to provide a beautiful user interface.
+
+The Angular application was converted  into an SSR application using Angular Universal. 
+
+Also was implemented a prerendering content when users have low-end and slow-performant devices and some of the potential pitfalls of this technique.
+
+Some of the available SEO techniques that the Angular framework offers were used to improve the discoverability of the application. 
+
+Finally, the preboot library was installed to improve the user experience of the application during loading.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
 ## Development server
