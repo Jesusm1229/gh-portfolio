@@ -8,6 +8,8 @@ import { PanelComponent } from './panel/panel.component';
 import { RepositoriesComponent } from './repositories/repositories.component';
 import { OrganizationsComponent } from './organizations/organizations.component';
 
+import { TransferHttpCacheModule } from '@nguniversal/common';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,8 @@ import { OrganizationsComponent } from './organizations/organizations.component'
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
-    HttpClientModule
+    HttpClientModule,
+    TransferHttpCacheModule
   ],
   providers: [],
   bootstrap: [AppComponent]
